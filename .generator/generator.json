@@ -1,0 +1,193 @@
+{
+    "app": {
+        "name": "Store Catalog Mobile Backend for Bluemix",
+        "description": "The Store Catalog Mobile Backend is a template that demonstrates Mobile services integration with API Connect, \nCloudant NoSQL DB, and Object Storage services on Bluemix. The template exhibits common architectural design patterns \nthat developers can use to model their backend on Bluemix for mobile applications."
+    },
+    "runtime": {
+        "name": "Node.js",
+        "description": "API Connect with Loopback"
+    },
+    "services": [
+        {
+            "name": "Cloudant NoSQL Database",
+            "deployname": "data",
+            "description": "Massively scalable, secure, and continuously operational database",
+            "type": "cloudantNoSQLDB",
+            "plan": "Shared",
+            "data": [
+                {
+                    "name": "cars",
+                    "path": "data/cloudant/cars.json"
+                }
+            ],
+            "redeploy": true,
+            "credentials": {
+                "metadata": {
+                    "guid": "9ca9709d-4106-49f7-8884-c222f5ccd12f",
+                    "url": "/v2/service_keys/9ca9709d-4106-49f7-8884-c222f5ccd12f",
+                    "created_at": "2016-09-13T13:45:30Z",
+                    "updated_at": null
+                },
+                "entity": {
+                    "name": "bluecar-server-data-credentials",
+                    "service_instance_guid": "c177411a-4608-436b-91ba-c8dc7acb62d3",
+                    "credentials": {
+                        "username": "f244c86f-ebb5-4aba-8ae6-4c7e0d772418-bluemix",
+                        "password": "0855a1631d40c7a27cfc0c3f837af9accc21446d7d14cbc43bb039bb2513e317",
+                        "host": "f244c86f-ebb5-4aba-8ae6-4c7e0d772418-bluemix.cloudant.com",
+                        "port": 443,
+                        "url": "https://f244c86f-ebb5-4aba-8ae6-4c7e0d772418-bluemix:0855a1631d40c7a27cfc0c3f837af9accc21446d7d14cbc43bb039bb2513e317@f244c86f-ebb5-4aba-8ae6-4c7e0d772418-bluemix.cloudant.com"
+                    },
+                    "service_instance_url": "/v2/service_instances/c177411a-4608-436b-91ba-c8dc7acb62d3"
+                },
+                "username": "f244c86f-ebb5-4aba-8ae6-4c7e0d772418-bluemix",
+                "password": "0855a1631d40c7a27cfc0c3f837af9accc21446d7d14cbc43bb039bb2513e317",
+                "host": "f244c86f-ebb5-4aba-8ae6-4c7e0d772418-bluemix.cloudant.com",
+                "port": 443,
+                "url": "https://f244c86f-ebb5-4aba-8ae6-4c7e0d772418-bluemix:0855a1631d40c7a27cfc0c3f837af9accc21446d7d14cbc43bb039bb2513e317@f244c86f-ebb5-4aba-8ae6-4c7e0d772418-bluemix.cloudant.com"
+            }
+        },
+        {
+            "name": "Object Storage",
+            "deployname": "storage",
+            "description": "Unstructured cloud data store",
+            "type": "Object-Storage",
+            "data": [
+                {
+                    "name": "cars",
+                    "path": "data/object-storage/cars/"
+                }
+            ],
+            "redeploy": true,
+            "credentials": {
+                "metadata": {
+                    "guid": "a8cae3b8-6856-475a-a510-09f87bdba74c",
+                    "url": "/v2/service_keys/a8cae3b8-6856-475a-a510-09f87bdba74c",
+                    "created_at": "2016-09-13T13:45:45Z",
+                    "updated_at": null
+                },
+                "entity": {
+                    "name": "bluecar-server-storage-credentials",
+                    "service_instance_guid": "6f0091d7-f82e-4665-a157-e8bea0bd44b5",
+                    "credentials": {
+                        "auth_url": "https://identity.open.softlayer.com",
+                        "project": "object_storage_6f0091d7_f82e_4665_a157_e8bea0bd44b5",
+                        "projectId": "e115a45c1e6b4f00bd07bac3a5a66831",
+                        "region": "dallas",
+                        "userId": "2c470ef3241144f8808e4e8df0320b56",
+                        "username": "admin_478c71280ad84e5055e0bb4b486f551eb23cf6e5",
+                        "password": "l#/ugzO=_4mQB5}R",
+                        "domainId": "091bd4ed737f494ca9fe50fbc05c5fd3",
+                        "domainName": "901473",
+                        "role": "admin"
+                    },
+                    "service_instance_url": "/v2/service_instances/6f0091d7-f82e-4665-a157-e8bea0bd44b5"
+                },
+                "auth_url": "https://identity.open.softlayer.com",
+                "project": "object_storage_6f0091d7_f82e_4665_a157_e8bea0bd44b5",
+                "projectId": "e115a45c1e6b4f00bd07bac3a5a66831",
+                "region": "dallas",
+                "userId": "2c470ef3241144f8808e4e8df0320b56",
+                "username": "admin_478c71280ad84e5055e0bb4b486f551eb23cf6e5",
+                "password": "l#/ugzO=_4mQB5}R",
+                "domainId": "091bd4ed737f494ca9fe50fbc05c5fd3",
+                "domainName": "901473",
+                "role": "admin"
+            }
+        },
+        {
+            "name": "Mobile Client Access",
+            "deployname": "authentication",
+            "description": "Ensure communications with backend systems are secure",
+            "type": "AdvancedMobileAccess",
+            "plan": "Bronze",
+            "credentials": {
+                "metadata": {
+                    "guid": "38229467-9f17-45e0-9f93-de742d1b71cb",
+                    "url": "/v2/service_keys/38229467-9f17-45e0-9f93-de742d1b71cb",
+                    "created_at": "2016-09-13T13:46:03Z",
+                    "updated_at": null
+                },
+                "entity": {
+                    "name": "bluecar-server-authentication-credentials",
+                    "service_instance_guid": "766a6b06-043c-4f3e-85db-4cad856754cf",
+                    "credentials": {
+                        "serverUrl": "https://imf-authserver.ng.bluemix.net/imf-authserver",
+                        "clientId": "766a6b06-043c-4f3e-85db-4cad856754cf",
+                        "secret": "ODBlOGMwNWQtZTU5OS00NWEzLWE1NTEtNDVmZjQ1MTkxYjM5",
+                        "tenantId": "766a6b06-043c-4f3e-85db-4cad856754cf",
+                        "authorizationEndpoint": "https://mobileclientaccess.ng.bluemix.net/oauth/v2/authorization",
+                        "tokenEndpoint": "https://mobileclientaccess.ng.bluemix.net/oauth/v2/token",
+                        "admin_url": "https://mobile.ng.bluemix.net/imfmobileplatformdashboard/"
+                    },
+                    "service_instance_url": "/v2/service_instances/766a6b06-043c-4f3e-85db-4cad856754cf"
+                },
+                "serverUrl": "https://imf-authserver.ng.bluemix.net/imf-authserver",
+                "clientId": "766a6b06-043c-4f3e-85db-4cad856754cf",
+                "secret": "ODBlOGMwNWQtZTU5OS00NWEzLWE1NTEtNDVmZjQ1MTkxYjM5",
+                "tenantId": "766a6b06-043c-4f3e-85db-4cad856754cf",
+                "authorizationEndpoint": "https://mobileclientaccess.ng.bluemix.net/oauth/v2/authorization",
+                "tokenEndpoint": "https://mobileclientaccess.ng.bluemix.net/oauth/v2/token",
+                "admin_url": "https://mobile.ng.bluemix.net/imfmobileplatformdashboard/"
+            }
+        },
+        {
+            "name": "Push Notifications",
+            "deployname": "push",
+            "description": "Engage Android and iOS mobile users by sending relevant content including interactive notifications",
+            "type": "imfpush",
+            "plan": "Basic",
+            "credentials": {
+                "metadata": {
+                    "guid": "38d050d2-9347-49ea-a812-da2a256eb7a6",
+                    "url": "/v2/service_keys/38d050d2-9347-49ea-a812-da2a256eb7a6",
+                    "created_at": "2016-09-13T13:46:07Z",
+                    "updated_at": null
+                },
+                "entity": {
+                    "name": "bluecar-server-push-credentials",
+                    "service_instance_guid": "8d58cf16-b178-4e04-b56f-e77593cc9fae",
+                    "credentials": {
+                        "appGuid": "8d58cf16-b178-4e04-b56f-e77593cc9fae",
+                        "url": "http://imfpush.ng.bluemix.net/imfpush/v1/apps/8d58cf16-b178-4e04-b56f-e77593cc9fae",
+                        "admin_url": "//mobile.ng.bluemix.net/imfpushdashboard/?appGuid=8d58cf16-b178-4e04-b56f-e77593cc9fae",
+                        "appSecret": "82081dcd-293c-4d81-9083-176bc293df05",
+                        "clientSecret": "6f07b5c3-873a-41a3-9efc-38e5e173cd56"
+                    },
+                    "service_instance_url": "/v2/service_instances/8d58cf16-b178-4e04-b56f-e77593cc9fae"
+                },
+                "appGuid": "8d58cf16-b178-4e04-b56f-e77593cc9fae",
+                "url": "http://imfpush.ng.bluemix.net/imfpush/v1/apps/8d58cf16-b178-4e04-b56f-e77593cc9fae",
+                "admin_url": "//mobile.ng.bluemix.net/imfpushdashboard/?appGuid=8d58cf16-b178-4e04-b56f-e77593cc9fae",
+                "appSecret": "82081dcd-293c-4d81-9083-176bc293df05",
+                "clientSecret": "6f07b5c3-873a-41a3-9efc-38e5e173cd56"
+            }
+        },
+        {
+            "name": "Mobile Analytics",
+            "deployname": "analytics",
+            "description": "Gain valuable insight into how your app is performing and being used",
+            "type": "mobile-analytics_Prod",
+            "plan": "lite",
+            "credentials": {
+                "metadata": {
+                    "guid": "2b15131a-f288-4152-a889-28a50130fc58",
+                    "url": "/v2/service_keys/2b15131a-f288-4152-a889-28a50130fc58",
+                    "created_at": "2016-09-13T13:46:12Z",
+                    "updated_at": null
+                },
+                "entity": {
+                    "name": "bluecar-server-analytics-credentials",
+                    "service_instance_guid": "2c315b23-0d64-4591-941c-2320ed52f9d6",
+                    "credentials": {
+                        "apiKey": "c814819a-3c53-45d7-b1c4-0b45586ad0f2",
+                        "secret": "076c6dbf-3415-4520-b37a-652db371cb24"
+                    },
+                    "service_instance_url": "/v2/service_instances/2c315b23-0d64-4591-941c-2320ed52f9d6"
+                },
+                "apiKey": "c814819a-3c53-45d7-b1c4-0b45586ad0f2",
+                "secret": "076c6dbf-3415-4520-b37a-652db371cb24"
+            }
+        }
+    ]
+}
