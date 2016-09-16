@@ -1,0 +1,396 @@
+paths:
+  /cars:
+    post:
+      tags:
+        - cars
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: cars.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            $ref: '#/definitions/cars'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/cars'
+      deprecated: false
+    put:
+      tags:
+        - cars
+      summary: Patch an existing model instance or insert a new one into the data source.
+      operationId: cars.upsert__put_cars
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            $ref: '#/definitions/cars'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/cars'
+      deprecated: false
+    patch:
+      tags:
+        - cars
+      summary: Patch an existing model instance or insert a new one into the data source.
+      operationId: cars.upsert__patch_cars
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            $ref: '#/definitions/cars'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/cars'
+      deprecated: false
+    get:
+      tags:
+        - cars
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: cars.find
+      parameters:
+        - name: filter
+          in: query
+          description: 'Filter defining fields, where, include, order, offset, and limit'
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/cars'
+      deprecated: false
+  /cars/replaceOrCreate:
+    post:
+      tags:
+        - cars
+      summary: Replace an existing model instance or insert a new one into the data source.
+      operationId: cars.replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            $ref: '#/definitions/cars'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/cars'
+      deprecated: false
+  /cars/upsertWithWhere:
+    post:
+      tags:
+        - cars
+      summary: Update an existing model instance or insert a new one into the data source based on the where criteria.
+      operationId: cars.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            $ref: '#/definitions/cars'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/cars'
+      deprecated: false
+  '/cars/{id}/exists':
+    get:
+      tags:
+        - cars
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'cars.exists__get_cars_{id}_exists'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/cars/{id}':
+    head:
+      tags:
+        - cars
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'cars.exists__head_cars_{id}'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - cars
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: cars.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: Filter defining fields and include
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/cars'
+      deprecated: false
+    delete:
+      tags:
+        - cars
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: cars.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    put:
+      tags:
+        - cars
+      summary: Patch attributes for a model instance and persist it into the data source.
+      operationId: 'cars.prototype.updateAttributes__put_cars_{id}'
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            $ref: '#/definitions/cars'
+        - name: id
+          in: path
+          description: PersistedModel id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/cars'
+      deprecated: false
+    patch:
+      tags:
+        - cars
+      summary: Patch attributes for a model instance and persist it into the data source.
+      operationId: 'cars.prototype.updateAttributes__patch_cars_{id}'
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            $ref: '#/definitions/cars'
+        - name: id
+          in: path
+          description: PersistedModel id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/cars'
+      deprecated: false
+  '/cars/{id}/replace':
+    post:
+      tags:
+        - cars
+      summary: Replace attributes for a model instance and persist it into the data source.
+      operationId: cars.replaceById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            $ref: '#/definitions/cars'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/cars'
+      deprecated: false
+  /cars/findOne:
+    get:
+      tags:
+        - cars
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: cars.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: 'Filter defining fields, where, include, order, offset, and limit'
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/cars'
+      deprecated: false
+  /cars/update:
+    post:
+      tags:
+        - cars
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: cars.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            $ref: '#/definitions/cars'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: The number of instances updated
+            type: object
+      deprecated: false
+  /cars/count:
+    get:
+      tags:
+        - cars
+      summary: Count instances of the model matched by where from the data source.
+      operationId: cars.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+definitions:
+  cars:
+    properties:
+      id:
+        type: string
+    additionalProperties: false
+  x-any:
+    properties: {}
+basePath: /api
+swagger: '2.0'
+info:
+  x-ibm-name: bluecar-api
+  version: 1.0.0
+  title: BlueCar API
+schemes:
+  - https
+host: $(catalog.host)
+consumes:
+  - application/json
+produces:
+  - application/json
+securityDefinitions:
+  clientIdHeader:
+    type: apiKey
+    in: header
+    name: X-IBM-Client-Id
+  clientSecretHeader:
+    in: header
+    name: X-IBM-Client-Secret
+    type: apiKey
+security:
+  - clientIdHeader: []
+    clientSecretHeader: []
+x-ibm-configuration:
+  testable: true
+  enforced: true
+  cors:
+    enabled: true
+  catalogs:
+    apic-dev:
+      properties:
+        runtime-url: $(TARGET_URL)
+    sb:
+      properties:
+        runtime-url: 'http://localhost:4001'
+  assembly:
+    execute:
+      - invoke:
+          target-url: $(runtime-url)$(request.path)$(request.search)

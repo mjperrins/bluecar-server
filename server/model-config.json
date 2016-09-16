@@ -13,12 +13,8 @@
       "./mixins"
     ]
   },
-  "Product": {
+  "cars": {
     "dataSource": "Cloudant",
-    "public": true
-  },
-  "Cars": {
-    "dataSource": null,
     "public": true
   }
 }

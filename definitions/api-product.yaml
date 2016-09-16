@@ -13,6 +13,10 @@ info:
 apis:
   api:
     $ref: api.yaml
+  cars:
+    $ref: cars_1.0.0.yaml
+  bluecar:
+    $ref: bluecar_1.0.0.yaml
 visibility:
   view:
     type: public

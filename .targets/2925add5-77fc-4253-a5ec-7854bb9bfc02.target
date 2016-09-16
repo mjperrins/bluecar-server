@@ -1,0 +1,68 @@
+type: bluemix
+server:
+  displayName: US South
+  name: us-south
+  host: us.apiconnect.ibmcloud.com
+org:
+  url: 'https://us.apiconnect.ibmcloud.com/v1/orgs/57dc50ce0cf24c2698ce2b5a'
+  id: 57dc50ce0cf24c2698ce2b5a
+  name: mjperrinusibmcom-bluecar
+  status: active
+  orgType: apiProvider
+  displayName: mjperrin@us.ibm.com (bluecar)
+  externalOrgId: a2ace396-b1f0-450e-99a0-b3d2e3c6593a
+  externalInviteOverride: 'https://new-console.ng.bluemix.net/apis/catalog/invitation'
+  externalSpaceId: a2ace396-b1f0-450e-99a0-b3d2e3c6593a
+  externalNativeOrgId: 239954fd-9633-467d-953f-c254b58c7d15
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+catalog:
+  id: 57dc50d00cf24c2698ce2b89
+  shortName: sb
+  name: Sandbox
+  sandbox: true
+app:
+  metadata:
+    guid: e0549c7e-9cd3-416f-89e0-c188c241d168
+    url: /v2/apps/e0549c7e-9cd3-416f-89e0-c188c241d168
+    created_at: '2016-09-13T13:50:08Z'
+    updated_at: '2016-09-13T13:52:46Z'
+  entity:
+    name: bluecar-server
+    production: false
+    space_guid: a2ace396-b1f0-450e-99a0-b3d2e3c6593a
+    stack_guid: ac91d31a-86a3-453b-babf-8d49c9d763fc
+    buildpack: null
+    detected_buildpack: 'SDK for Node.js(TM) (ibm-node.js-4.5.0, buildpack-v3.7-20160826-1101)'
+    environment_json: {}
+    memory: 512
+    instances: 1
+    disk_quota: 1024
+    state: STARTED
+    version: 449efe36-bf0f-4047-9382-a502aa87139c
+    command: null
+    console: false
+    debug: null
+    staging_task_id: f9169ab37ae94ab18654fb6de94b6328
+    package_state: STAGED
+    health_check_type: port
+    health_check_timeout: null
+    staging_failed_reason: null
+    staging_failed_description: null
+    diego: false
+    docker_image: null
+    package_updated_at: '2016-09-13T13:50:21Z'
+    detected_start_command: ./vendor/initial_startup.rb
+    enable_ssh: true
+    docker_credentials_json:
+      redacted_message: '[PRIVATE DATA HIDDEN]'
+    ports: null
+    space_url: /v2/spaces/a2ace396-b1f0-450e-99a0-b3d2e3c6593a
+    stack_url: /v2/stacks/ac91d31a-86a3-453b-babf-8d49c9d763fc
+    routes_url: /v2/apps/e0549c7e-9cd3-416f-89e0-c188c241d168/routes
+    events_url: /v2/apps/e0549c7e-9cd3-416f-89e0-c188c241d168/events
+    service_bindings_url: /v2/apps/e0549c7e-9cd3-416f-89e0-c188c241d168/service_bindings
+    route_mappings_url: /v2/apps/e0549c7e-9cd3-416f-89e0-c188c241d168/route_mappings
+id: 2925add5-77fc-4253-a5ec-7854bb9bfc02
+target: 1.0.0
