@@ -1,7 +1,7 @@
 {
-  "name": "Store-Catalog-Mobile-Backend",
+  "name": "BlueCar API",
   "version": "1.0.0",
-  "description": "Bluemix Mobile Services integration with API Connect, Cloudant NoSQL DB, and Object Storage",
+  "description": "BlueCar API backend for integration with Cloudant and ObjectStore",
   "main": "server/server.js",
   "scripts": {
     "start": "node .",

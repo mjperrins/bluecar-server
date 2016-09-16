@@ -5,7 +5,9 @@ paths:
         '200':
           description: 200 OK
       summary: ''
-      description: Protected endpoint. Only accessible after authentication with MCA Service.
+      description: >-
+        Protected endpoint. Only accessible after authentication with MCA
+        Service.
   '/Products/image/{container}/{file}':
     get:
       responses:
@@ -43,7 +45,9 @@ paths:
     put:
       tags:
         - Product
-      summary: Update an existing model instance or insert a new one into the data source.
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source.
       operationId: Product.upsert
       parameters:
         - name: data
@@ -161,7 +165,9 @@ paths:
     put:
       tags:
         - Product
-      summary: Update attributes for a model instance and persist it into the data source.
+      summary: >-
+        Update attributes for a model instance and persist it into the data
+        source.
       operationId: Product.prototype.updateAttributes
       parameters:
         - name: data
@@ -315,9 +321,9 @@ definitions:
     properties: {}
 swagger: '2.0'
 info:
-  x-ibm-name: Products
-  version: 1.0.0
-  title: Products
+  x-ibm-name: cars
+  version: 0.0.1
+  title: Cars
   description: API
   contact:
     name: IBM Bluemix Mobile

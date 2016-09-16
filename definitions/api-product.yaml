@@ -1,7 +1,7 @@
 product: 1.0.0
 info:
-  name: store-catalog-mobile-backend
-  title: Store Catalog Mobile Backend
+  name: car-rental-api
+  title: BlueCar
   version: 1.0.0
   license:
     name: 'Apache License, Version 2.0'
@@ -9,7 +9,7 @@ info:
   contact:
     name: IBM Bluemix Mobile
     url: 'http://www.ibm.com/cloud-computing/bluemix/'
-  description: "A Bluemix template application showcasing\_API Connect, Cloudant NoSQL DB, and Object Storage integration."
+  description: Bluemix BlueCar Car Rental API
 apis:
   api:
     $ref: api.yaml

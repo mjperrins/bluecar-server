@@ -16,8 +16,12 @@ var vcap_mca = require('../utils/vcap')('AdvancedMobileAccess'),
 		mca = require('../modules/mobile-client-access'),
 		os = require('../modules/object-storage');
 
+
+
+
 module.exports = function(app) {
 	var router = app.loopback.Router();
+
 
 	// proxy for object storage service
 	router.get('/api/Products/image/:container/:file', function(req, res) {
@@ -30,6 +34,8 @@ module.exports = function(app) {
 	router.get('/api/Products/protected', mca(app, vcap_mca.credentials), function(req, res) {
 		res.send("Hello, this is a protected resource of the mobile backend application!");
 	});
+
+
 
 	app.use(router);
 }
