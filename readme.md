@@ -22,11 +22,16 @@ apic edit
 bluegen
 ```
 
-## Run Server
+## Run Server Locally
 ```
 node server/server
 ```
 
+## Deploy to Bluemix
+```
+cf login 
+cf push
+```
 ## Server
 Access `http://localhost:3000'
 
