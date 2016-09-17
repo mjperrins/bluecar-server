@@ -24,18 +24,16 @@ module.exports = function(app) {
 
 
 	// proxy for object storage service
-	router.get('/api/Products/image/:container/:file', function(req, res) {
+	router.get('/api/catalog/image/:container/:file', function(req, res) {
 		os(vcap_os.credentials).download(req.params.container, req.params.file, function(download) {
 			download.pipe(res);
 		});
 	});
 
 	// protected endpoint only accessible after mobile app authenticates with mca service
-	router.get('/api/Products/protected', mca(app, vcap_mca.credentials), function(req, res) {
+	router.get('/api/cars/protected', mca(app, vcap_mca.credentials), function(req, res) {
 		res.send("Hello, this is a protected resource of the mobile backend application!");
 	});
-
-
 
 	app.use(router);
 }

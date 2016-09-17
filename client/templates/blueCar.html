@@ -1,0 +1,23 @@
+<ion-side-menus enable-menu-with-back-views="true">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-stable">
+            <ion-nav-back-button></ion-nav-back-button>
+            <ion-nav-buttons side="right">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="right"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="side-menu21"></ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu side="right" id="side-menu21">
+        <ion-header-bar class="bar-stable">
+            <div class="title">BlueCar</div>
+        </ion-header-bar>
+        <ion-content padding="false" class="side-menu-right has-header ">
+            <ion-list id="blueCar-list1">
+                <ion-item id="blueCar-list-item1" ui-sref="blueCar.rentals" menu-close="">Rentals</ion-item>
+                <ion-item id="blueCar-list-item2" ui-sref="blueCar.profile" menu-close="">Profile</ion-item>
+                <ion-item id="blueCar-list-item3" ui-sref="blueCar.settiings" menu-close="">Settings</ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>

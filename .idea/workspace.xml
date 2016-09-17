@@ -2,15 +2,667 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6370df53-904d-44fb-bc82-a016560f2ed0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/models/product.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/models/product.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/definitions/api.yaml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.apiconnect/config" afterPath="$PROJECT_DIR$/.apiconnect/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/icon/drawable-hdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/icon/drawable-ldpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/icon/drawable-mdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/icon/drawable-xhdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/icon/drawable-xxhdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/icon/drawable-xxxhdpi-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/splash/drawable-land-hdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/splash/drawable-land-ldpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/splash/drawable-land-mdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/splash/drawable-land-xhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/splash/drawable-land-xxhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/splash/drawable-land-xxxhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/splash/drawable-port-hdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/splash/drawable-port-ldpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/splash/drawable-port-mdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/splash/drawable-port-xhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/splash/drawable-port-xxhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/android/splash/drawable-port-xxxhdpi-screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-40@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-50.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-50@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-60@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-60@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-72@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-76@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-small@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon-small@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/icon/icon@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/splash/Default-568h@2x~iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/splash/Default-667h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/splash/Default-736h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/splash/Default-Landscape-736h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/splash/Default-Landscape@2x~ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/splash/Default-Landscape~ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/splash/Default-Portrait@2x~ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/splash/Default-Portrait~ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/splash/Default@2x~iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/ios/splash/Default~iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/resources/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/fonts/ionicons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/fonts/ionicons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/fonts/ionicons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/img/GYJUERzeRBa947GgT8YA_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/fonts/ionicons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/fonts/ionicons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/fonts/ionicons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.datastore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/hooks/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/hooks/after_prepare/010_add_platform_class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/ionic.config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/scss/ionic.app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-animate/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-animate/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-animate/angular-animate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-animate/angular-animate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-animate/angular-animate.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-animate/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-animate/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-animate/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-sanitize/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-sanitize/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-sanitize/angular-sanitize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-sanitize/angular-sanitize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-sanitize/angular-sanitize.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-sanitize/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-sanitize/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-sanitize/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/api/angular-ui-router.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/release/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/release/angular-ui-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/src/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/src/resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/src/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/src/stateDirectives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/src/stateFilters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/src/templateFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/src/urlMatcherFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/src/urlRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/src/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/src/viewDirective.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular-ui-router/src/viewScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/angular/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/css/ionic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/css/ionic.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/fonts/ionicons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/js/ionic-angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/js/ionic-angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/js/ionic.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/js/ionic.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/js/ionic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/js/ionic.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_action-sheet.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_animations.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_backdrop.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_badge.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_button-bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_button.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_checkbox.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_form.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_items.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_loading.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_menu.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_platform.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_popover.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_popup.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_progress.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_radio.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_range.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_refresher.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_reset.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_scaffolding.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_select.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_slide-box.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_slides.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_spinner.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_tabs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_toggle.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_transitions.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_type.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_util.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/ionic.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/ionicons/ionicons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/ionic/scss/tsconfig.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/AUTHORS.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/dist/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/dist/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/dist/jquery.slim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/dist/jquery.slim.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/dist/jquery.slim.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/external/sizzle/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/external/sizzle/dist/sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/external/sizzle/dist/sizzle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/external/sizzle/dist/sizzle.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/ajax/jsonp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/ajax/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/ajax/parseXML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/ajax/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/ajax/var/location.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/ajax/var/nonce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/ajax/var/rquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/ajax/xhr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/attributes/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/attributes/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/attributes/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/attributes/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/attributes/val.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/core/DOMEval.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/core/access.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/core/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/core/parseHTML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/core/ready-no-deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/core/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/core/readyException.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/core/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/core/var/rsingleTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/css/addGetHookIf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/css/adjustCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/css/curCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/css/showHide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/css/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/css/var/cssExpand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/css/var/getStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/css/var/isHiddenWithinTree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/css/var/rmargin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/css/var/rnumnonpx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/css/var/swap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/deferred/exceptionHook.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/effects/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/effects/animatedSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/event/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/event/alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/event/focusin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/event/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/event/trigger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/exports/amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/exports/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/manipulation/_evalUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/manipulation/buildFragment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/manipulation/getAll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/manipulation/setGlobalEval.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/manipulation/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/manipulation/var/rscriptType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/manipulation/var/rtagName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/manipulation/wrapMap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/queue/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/selector-native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/selector-sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/traversing/findFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/traversing/var/dir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/traversing/var/siblings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/ObjectFunctionString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/arr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/class2type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/document.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/documentElement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/fnToString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/getProto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/hasOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/indexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/pnum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/push.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/rcssNum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/rnotwhite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/var/toString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluecar-webapp/www/lib/jquery/src/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-masonry/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-masonry/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-masonry/CODE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-masonry/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-masonry/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-masonry/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-masonry/angular-masonry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular-masonry/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/angular/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/desandro-matches-selector/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/desandro-matches-selector/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/desandro-matches-selector/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/desandro-matches-selector/matches-selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ev-emitter/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ev-emitter/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ev-emitter/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ev-emitter/ev-emitter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/ev-emitter/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/fizzy-ui-utils/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/fizzy-ui-utils/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/fizzy-ui-utils/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/fizzy-ui-utils/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/get-size/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/get-size/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/get-size/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/get-size/get-size.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/imagesloaded/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/imagesloaded/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/imagesloaded/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/imagesloaded/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/imagesloaded/imagesloaded.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/imagesloaded/imagesloaded.pkgd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/imagesloaded/imagesloaded.pkgd.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-bridget/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-bridget/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-bridget/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-bridget/jquery-bridget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/jsonp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseJSON.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseXML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/nonce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/rquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/xhr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/access.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/parseHTML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/var/rsingleTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/addGetHookIf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/curCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/defaultDisplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/swap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/cssExpand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/getStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/isHidden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rmargin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rnumnonpx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects/animatedSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/exports/amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/exports/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/_evalUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/queue/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/selector-native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/selector-sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing/findFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/arr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/class2type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/hasOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/indexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/pnum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/push.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/rnotwhite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/strundefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/toString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/masonry/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/masonry/README.mdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/masonry/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/masonry/dist/masonry.pkgd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/masonry/dist/masonry.pkgd.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/masonry/masonry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/outlayer/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/outlayer/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/outlayer/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/outlayer/item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/outlayer/outlayer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/js/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/js/directives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/js/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/js/services.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-animate/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-animate/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-animate/angular-animate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-animate/angular-animate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-animate/angular-animate.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-animate/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-animate/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-animate/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-masonry/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-masonry/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-masonry/CODE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-masonry/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-masonry/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-masonry/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-masonry/angular-masonry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-masonry/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-sanitize/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-sanitize/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-sanitize/angular-sanitize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-sanitize/angular-sanitize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-sanitize/angular-sanitize.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-sanitize/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-sanitize/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-sanitize/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/api/angular-ui-router.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/release/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/release/angular-ui-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/src/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/src/resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/src/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/src/stateDirectives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/src/stateFilters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/src/templateFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/src/urlMatcherFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/src/urlRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/src/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/src/viewDirective.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular-ui-router/src/viewScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/angular/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/css/ionic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/css/ionic.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/fonts/ionicons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/js/ionic-angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/js/ionic-angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/js/ionic.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/js/ionic.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/js/ionic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/js/ionic.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_action-sheet.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_animations.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_backdrop.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_badge.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_button-bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_button.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_checkbox.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_form.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_items.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_loading.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_menu.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_platform.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_popover.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_popup.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_progress.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_radio.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_range.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_refresher.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_reset.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_scaffolding.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_select.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_slide-box.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_slides.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_spinner.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_tabs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_toggle.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_transitions.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_type.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_util.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/ionic.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/ionicons/_ionicons-font.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/scss/ionicons/ionicons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionic/version.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/ionicuirouter/ionicUIRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/dist/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/ajax/jsonp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/ajax/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/ajax/parseJSON.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/ajax/parseXML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/ajax/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/ajax/var/nonce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/ajax/var/rquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/ajax/xhr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/attributes/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/attributes/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/attributes/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/attributes/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/attributes/val.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/core/access.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/core/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/core/parseHTML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/core/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/core/var/rsingleTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/css/addGetHookIf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/css/curCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/css/defaultDisplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/css/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/css/swap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/css/var/cssExpand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/css/var/getStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/css/var/isHidden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/css/var/rmargin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/css/var/rnumnonpx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/effects/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/effects/animatedSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/event/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/event/alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/event/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/exports/amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/exports/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/manipulation/_evalUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/manipulation/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/queue/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/selector-native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/selector-sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/sizzle/dist/sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/traversing/findFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/var/arr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/var/class2type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/var/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/var/hasOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/var/indexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/var/pnum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/var/push.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/var/rnotwhite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/var/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/var/strundefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/var/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/var/toString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/jquery/src/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/service-worker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/blueCar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/rentals.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/settiings.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/css/main.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/fonts/helvetica-neue-bold-italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/fonts/helvetica-neue-bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/fonts/helvetica-neue-roman-italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/fonts/helvetica-neue-roman.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/assets/arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/assets/header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/assets/main.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/favicon/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/logos/api-connect.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/logos/cloudant.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/logos/mobile-analytics.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/logos/mobile-client-access.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/logos/object-storage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/logos/push-notifications.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/screenshots/api-connect.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/screenshots/cloudant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/screenshots/mobile-analytics.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/screenshots/mobile-client-access.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/screenshots/mobile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/screenshots/object-storage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/img/screenshots/push-notifications.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/main.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/definitions/bluecar_1.0.0.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/definitions/cars_1.0.0.yaml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/cars.json" afterPath="$PROJECT_DIR$/common/models/cars.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cloudant/cars.json" afterPath="$PROJECT_DIR$/data/cloudant/cars.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/definitions/api-product.yaml" afterPath="$PROJECT_DIR$/definitions/api-product.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/model-config.json" afterPath="$PROJECT_DIR$/server/model-config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/definitions/BlueCar API.yaml" afterPath="$PROJECT_DIR$/definitions/BlueCar API.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/boot/routes.js" afterPath="$PROJECT_DIR$/server/boot/routes.js" />
     </list>
     <ignored path="bluecar-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,21 +685,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="cars.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/cloudant/cars.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="69">
+              <caret line="401" column="27" selection-start-line="401" selection-start-column="27" selection-end-line="401" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cars.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/cloudant/cars.json">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="402" column="34" selection-start-line="402" selection-start-column="34" selection-end-line="402" selection-end-column="34" />
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -62,9 +714,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/server/modules/bluecar.js" />
-        <option value="$PROJECT_DIR$/server/boot/routes.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/client/js/routes.js" />
+        <option value="$PROJECT_DIR$/server/boot/routes.js" />
         <option value="$PROJECT_DIR$/data/cloudant/cars.json" />
+        <option value="$PROJECT_DIR$/client/.bowerrc" />
+        <option value="$PROJECT_DIR$/client/js/controllers.js" />
+        <option value="$PROJECT_DIR$/client/bower.json" />
+        <option value="$PROJECT_DIR$/client/templates/rentals.html" />
+        <option value="$PROJECT_DIR$/client/css/style.css" />
+        <option value="$PROJECT_DIR$/client/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -80,10 +740,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
+    <option name="x" value="35" />
     <option name="y" value="33" />
-    <option name="width" value="936" />
-    <option name="height" value="1313" />
+    <option name="width" value="1301" />
+    <option name="height" value="943" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -140,39 +800,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluecar-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluecar-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluecar-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluecar-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloudant" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,25 +902,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474043873311</updated>
-      <workItem from="1474043874973" duration="5157000" />
+      <workItem from="1474043874973" duration="14302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5157000" />
+    <option name="totallyTimeSpent" value="14302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="33" width="936" height="1313" extended-state="0" />
+    <frame x="35" y="33" width="1301" height="943" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38183808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27990618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32841933" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3243243" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -316,7 +944,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/js/controllers.js</url>
+          <line>1</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -325,7 +962,7 @@
         <state relative-caret-position="450">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -335,7 +972,7 @@
         <state relative-caret-position="405">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -364,23 +1001,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/boot/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -392,10 +1043,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/lib/fizzy-ui-utils/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/rentals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="e#427#433#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/boot/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/cloudant/cars.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="402" column="34" selection-start-line="402" selection-start-column="34" selection-end-line="402" selection-end-column="34" />
+        <state relative-caret-position="69">
+          <caret line="401" column="27" selection-start-line="401" selection-start-column="27" selection-end-line="401" selection-end-column="27" />
           <folding />
         </state>
       </provider>

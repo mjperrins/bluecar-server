@@ -1,4 +1,23 @@
 paths:
+  /cars/protected:
+    get:
+      responses:
+        '200':
+          description: 200 OK
+  '/catalog/image/{container}/{file}':
+    get:
+      responses:
+        '200':
+          description: 200 OK
+      parameters:
+        - name: container
+          type: string
+          required: true
+          in: path
+        - name: file
+          type: string
+          required: true
+          in: path
   /cars:
     post:
       tags:
@@ -21,7 +40,9 @@ paths:
     put:
       tags:
         - cars
-      summary: Patch an existing model instance or insert a new one into the data source.
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
       operationId: cars.upsert__put_cars
       parameters:
         - name: data
@@ -39,7 +60,9 @@ paths:
     patch:
       tags:
         - cars
-      summary: Patch an existing model instance or insert a new one into the data source.
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
       operationId: cars.upsert__patch_cars
       parameters:
         - name: data
@@ -78,7 +101,9 @@ paths:
     post:
       tags:
         - cars
-      summary: Replace an existing model instance or insert a new one into the data source.
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
       operationId: cars.replaceOrCreate
       parameters:
         - name: data
@@ -97,7 +122,9 @@ paths:
     post:
       tags:
         - cars
-      summary: Update an existing model instance or insert a new one into the data source based on the where criteria.
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
       operationId: cars.upsertWithWhere
       parameters:
         - name: where
@@ -207,7 +234,9 @@ paths:
     put:
       tags:
         - cars
-      summary: Patch attributes for a model instance and persist it into the data source.
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
       operationId: 'cars.prototype.updateAttributes__put_cars_{id}'
       parameters:
         - name: data
@@ -231,7 +260,9 @@ paths:
     patch:
       tags:
         - cars
-      summary: Patch attributes for a model instance and persist it into the data source.
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
       operationId: 'cars.prototype.updateAttributes__patch_cars_{id}'
       parameters:
         - name: data
@@ -256,7 +287,9 @@ paths:
     post:
       tags:
         - cars
-      summary: Replace attributes for a model instance and persist it into the data source.
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
       operationId: cars.replaceById
       parameters:
         - name: id
@@ -348,6 +381,20 @@ paths:
 definitions:
   cars:
     properties:
+      company:
+        type: string
+      brand:
+        type: number
+        format: double
+      model:
+        type: number
+        format: double
+      size:
+        type: number
+        format: double
+      price:
+        type: number
+        format: double
       id:
         type: string
     additionalProperties: false

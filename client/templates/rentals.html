@@ -1,0 +1,29 @@
+<ion-view title="Rentals" id="page1" >
+
+    <ion-content padding="true" class="has-header grid" masonry>
+
+        <div class="row" style="flex-wrap: wrap;">
+            <div class="col col-33 list card car-card" id="rentals-card21" ng-repeat="car in cars">
+                <ion-item class="item-icon-left item-icon-right positive" id="rentals-list-item4">
+                    <i class="icon ion-android-car"></i>{{car.company}}&nbsp;{{car.brand}}
+                    <span class="item-note">${{car.price}}</span>
+                    <i class="icon ion-cash"></i>
+                </ion-item>
+                <ion-item class="item-icon-left item-icon-right dark" id="rentals-list-item6">
+                    <i class="icon ion-image"></i>{{car.model}}
+                    <span class="item-note">{{car.size}}</span>
+                    <i class="icon ion-calculator"></i>
+                </ion-item>
+                <div class=" item item-image">
+                    <img ng-src="/api/catalog/image/cars/{{car.picture}}" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+                </div>
+                <ion-item class="item-icon-left item-icon-right positive" id="rentals-list-item7">
+                    <i class="icon ion-ios-information-outline"></i>Tell me more
+                    <span class="item-note">Choose This Car</span>
+                    <i class="icon ion-ios-cart-outline"></i>
+                </ion-item>
+            </div>
+        </masonry>
+
+    </ion-content>
+</ion-view>
