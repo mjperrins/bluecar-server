@@ -4,3 +4,7 @@
     width:350px;
     margin-right:10px;
 }
+
+.item-image img:first-child, .item-image .list-img {
+    height: 16em;
+}

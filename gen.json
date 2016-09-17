@@ -1,0 +1,18 @@
+{
+  "platforms": [
+    "IOS_SWIFT"
+  ],
+  "project": {
+    "analytics": {
+      "apiKey": "c814819a-3c53-45d7-b1c4-0b45586ad0f2"
+    },
+    "name": "BlueCarApp",
+    "push": {
+      "appGuid": "8d58cf16-b178-4e04-b56f-e77593cc9fae",
+      "clientSecret": "6f07b5c3-873a-41a3-9efc-38e5e173cd56"
+    }
+  },
+  "templateSources": [
+    "https://github.ibm.com/BluemixMobileStarters/starter-object-storage"
+  ]
+}

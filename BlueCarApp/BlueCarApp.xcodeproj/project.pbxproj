@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E01D0984F45C43018E5FE936 /* BMSConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B1B18A6AFFB4B5282A96FCC /* BMSConfig.plist */; };
+		840127791D89E05D003716AF /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840127781D89E05D003716AF /* credentials.plist */; };
+		84F520BA1D6361BD00E8AE8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F520B91D6361BD00E8AE8C /* AppDelegate.swift */; };
+		84F520BF1D6361BD00E8AE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F520BD1D6361BD00E8AE8C /* Main.storyboard */; };
+		84F520C11D6361BD00E8AE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F520C01D6361BD00E8AE8C /* Assets.xcassets */; };
+		84F520C41D6361BD00E8AE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F520C21D6361BD00E8AE8C /* LaunchScreen.storyboard */; };
+		84F520CD1D6365BD00E8AE8C /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F520CB1D6365BD00E8AE8C /* PhotoCell.swift */; };
+		84F520CE1D6365BD00E8AE8C /* PhotoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F520CC1D6365BD00E8AE8C /* PhotoContainer.swift */; };
+		F6DEB5400F2FE08DFD047B11 /* Pods_BlueCarApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF054792E984A6CC8155679 /* Pods_BlueCarApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B1B18A6AFFB4B5282A96FCC /* BMSConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BMSConfig.plist; sourceTree = "<group>"; };
+		37F21C809AFC13D84B527943 /* Pods-BlueCarApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueCarApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueCarApp/Pods-BlueCarApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4FD99A290701FC095E580ADF /* Pods-BlueCarApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueCarApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueCarApp/Pods-BlueCarApp.release.xcconfig"; sourceTree = "<group>"; };
+		840127781D89E05D003716AF /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		84F520B61D6361BD00E8AE8C /* BlueCarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlueCarApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F520B91D6361BD00E8AE8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84F520BE1D6361BD00E8AE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84F520C01D6361BD00E8AE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F520C31D6361BD00E8AE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84F520C51D6361BD00E8AE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F520CB1D6365BD00E8AE8C /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		84F520CC1D6365BD00E8AE8C /* PhotoContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoContainer.swift; sourceTree = "<group>"; };
+		EFF054792E984A6CC8155679 /* Pods_BlueCarApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueCarApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F520B31D6361BD00E8AE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DEB5400F2FE08DFD047B11 /* Pods_BlueCarApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84F520AD1D6361BD00E8AE8C = {
+			isa = PBXGroup;
+			children = (
+				84F520B81D6361BD00E8AE8C /* BlueCarApp */,
+				84F520B71D6361BD00E8AE8C /* Products */,
+				8D4E10A6501101FA8741909B /* Pods */,
+				EE0646DC46B90F398595E4DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84F520B71D6361BD00E8AE8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F520B61D6361BD00E8AE8C /* BlueCarApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F520B81D6361BD00E8AE8C /* BlueCarApp */ = {
+			isa = PBXGroup;
+			children = (
+				8B1B18A6AFFB4B5282A96FCC /* BMSConfig.plist */,
+				84F520CB1D6365BD00E8AE8C /* PhotoCell.swift */,
+				84F520CC1D6365BD00E8AE8C /* PhotoContainer.swift */,
+				84F520B91D6361BD00E8AE8C /* AppDelegate.swift */,
+				84F520BD1D6361BD00E8AE8C /* Main.storyboard */,
+				84F520C01D6361BD00E8AE8C /* Assets.xcassets */,
+				84F520C21D6361BD00E8AE8C /* LaunchScreen.storyboard */,
+				84F520C51D6361BD00E8AE8C /* Info.plist */,
+				840127781D89E05D003716AF /* credentials.plist */,
+			);
+			path = "BlueCarApp";
+			sourceTree = "<group>";
+		};
+		8D4E10A6501101FA8741909B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37F21C809AFC13D84B527943 /* Pods-BlueCarApp.debug.xcconfig */,
+				4FD99A290701FC095E580ADF /* Pods-BlueCarApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE0646DC46B90F398595E4DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFF054792E984A6CC8155679 /* Pods_BlueCarApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F520B51D6361BD00E8AE8C /* BlueCarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F520C81D6361BD00E8AE8C /* Build configuration list for PBXNativeTarget "BlueCarApp" */;
+			buildPhases = (
+				544CCD91D81AC036DD3C52E2 /* 📦 Check Pods Manifest.lock */,
+				84F520B21D6361BD00E8AE8C /* Sources */,
+				84F520B31D6361BD00E8AE8C /* Frameworks */,
+				84F520B41D6361BD00E8AE8C /* Resources */,
+				171771411235831D62D6082C /* 📦 Embed Pods Frameworks */,
+				F95604FC2F112F6F7A49427D /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlueCarApp";
+			productName = "BlueCarApp";
+			productReference = 84F520B61D6361BD00E8AE8C /* BlueCarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F520AE1D6361BD00E8AE8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "bluemix-mobile-devex";
+				TargetAttributes = {
+					84F520B51D6361BD00E8AE8C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 84F520B11D6361BD00E8AE8C /* Build configuration list for PBXProject "BlueCarApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F520AD1D6361BD00E8AE8C;
+			productRefGroup = 84F520B71D6361BD00E8AE8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F520B51D6361BD00E8AE8C /* BlueCarApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F520B41D6361BD00E8AE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01D0984F45C43018E5FE936 /* BMSConfig.plist in Resources */,
+				84F520C41D6361BD00E8AE8C /* LaunchScreen.storyboard in Resources */,
+				840127791D89E05D003716AF /* credentials.plist in Resources */,
+				84F520C11D6361BD00E8AE8C /* Assets.xcassets in Resources */,
+				84F520BF1D6361BD00E8AE8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		171771411235831D62D6082C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueCarApp/Pods-BlueCarApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		544CCD91D81AC036DD3C52E2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F95604FC2F112F6F7A49427D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueCarApp/Pods-BlueCarApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F520B21D6361BD00E8AE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F520CE1D6365BD00E8AE8C /* PhotoContainer.swift in Sources */,
+				84F520CD1D6365BD00E8AE8C /* PhotoCell.swift in Sources */,
+				84F520BA1D6361BD00E8AE8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84F520BD1D6361BD00E8AE8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F520BE1D6361BD00E8AE8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84F520C21D6361BD00E8AE8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F520C31D6361BD00E8AE8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F520C61D6361BD00E8AE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84F520C71D6361BD00E8AE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84F520C91D6361BD00E8AE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F21C809AFC13D84B527943 /* Pods-BlueCarApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BlueCarApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ENABLE_BITCODE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.bluemix.BlueCarApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84F520CA1D6361BD00E8AE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD99A290701FC095E580ADF /* Pods-BlueCarApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BlueCarApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ENABLE_BITCODE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.bluemix.BlueCarApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F520B11D6361BD00E8AE8C /* Build configuration list for PBXProject "BlueCarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F520C61D6361BD00E8AE8C /* Debug */,
+				84F520C71D6361BD00E8AE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F520C81D6361BD00E8AE8C /* Build configuration list for PBXNativeTarget "BlueCarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F520C91D6361BD00E8AE8C /* Debug */,
+				84F520CA1D6361BD00E8AE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F520AE1D6361BD00E8AE8C /* Project object */;
+}

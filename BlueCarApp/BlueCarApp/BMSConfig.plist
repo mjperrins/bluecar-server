@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>analyticsApiKey</key>
+    <string>c814819a-3c53-45d7-b1c4-0b45586ad0f2</string>
+    <key>pushAppGuid</key>
+    <string>8d58cf16-b178-4e04-b56f-e77593cc9fae</string>
+    <key>pushClientSecret</key>
+    <string>6f07b5c3-873a-41a3-9efc-38e5e173cd56</string>
+    <key>appName</key>
+    <string>BlueCarApp</string></dict>
+</plist>

@@ -1,5 +1,5 @@
 {
-  "name": "BlueCar API",
+  "name": "bluecar-server",
   "version": "1.0.0",
   "description": "BlueCar API backend for integration with Cloudant and ObjectStore",
   "main": "server/server.js",
